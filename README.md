@@ -9,3 +9,6 @@
 
 ### recording game gcd
 [![asciicast](https://asciinema.org/a/gOo07GHNNHydhoDA2jznP24Bn.svg)](https://asciinema.org/a/gOo07GHNNHydhoDA2jznP24Bn)
+
+### recording game calc
+[![asciicast](https://asciinema.org/a/raMyQxWMsF3ZTEAOgbBHAi96V.svg)](https://asciinema.org/a/raMyQxWMsF3ZTEAOgbBHAi96V)
