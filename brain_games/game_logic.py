@@ -11,7 +11,9 @@ def start_game(description, question_func):
         user_answer = input("Your answer: ").strip()
 
         if user_answer != str(correct_answer):
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(
+                f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'."
+            )
             print(f"Let's try again, {name}!")
             return
 
