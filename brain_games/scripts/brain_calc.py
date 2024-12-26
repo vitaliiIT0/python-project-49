@@ -1,6 +1,7 @@
 import random
 from brain_games.game_logic import start_game
 
+
 def generate_calculation():
     operations = ['+', '-', '*']
     num1 = random.randint(1, 100)
@@ -16,6 +17,7 @@ def generate_calculation():
         correct_answer = num1 * num2
 
     return question, correct_answer
+
 
 def main():
     start_game("What is the result of the expression?", generate_calculation)

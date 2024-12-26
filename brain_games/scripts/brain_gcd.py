@@ -2,6 +2,7 @@ import random
 from math import gcd
 from brain_games.cli import welcome_user
 
+
 def main():
     user_name = welcome_user()
     print("Find the greatest common divisor of given numbers.")
@@ -11,7 +12,7 @@ def main():
         number1 = random.randint(1, 100)
         number2 = random.randint(1, 100)
         print(f"Question: {number1} {number2}")
-        
+
         correct_answer = gcd(number1, number2)
         user_answer = input("Your answer: ").strip()
 

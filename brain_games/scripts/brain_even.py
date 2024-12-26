@@ -1,10 +1,12 @@
 import random
 from brain_games.cli import welcome_user
 
-def is_even(number):    
+
+def is_even(number):
     return number % 2 == 0
 
-def main():    
+
+def main():
     user_name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
