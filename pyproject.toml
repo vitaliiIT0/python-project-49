@@ -30,6 +30,7 @@ line-length = 80
 [lint]
 preview = true
 select = ["E", "F", "I", "C90"]
+
 [project.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
-
+brain-even = "brain_games.scripts.brain_even:main"
