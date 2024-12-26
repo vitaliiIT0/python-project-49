@@ -15,3 +15,6 @@
 
 ### recording game progressive
 [![asciicast](https://asciinema.org/a/6Qu4QMysJC45XOzzKa2qVi6rH.svg)](https://asciinema.org/a/6Qu4QMysJC45XOzzKa2qVi6rH)
+
+### recording game brain-prime
+[![asciicast](https://asciinema.org/a/Xgr2SEWjtYqY1FlPUWjHqHfnp.svg)](https://asciinema.org/a/Xgr2SEWjtYqY1FlPUWjHqHfnp)
