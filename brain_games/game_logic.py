@@ -12,8 +12,8 @@ def start_game(description, question_func):
 
         if user_answer != str(correct_answer):
             print(
-                f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'."
-            )
+                f"'{user_answer}' is wrong answer ;(. "
+                f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             return
 

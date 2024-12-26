@@ -18,8 +18,8 @@ def main():
 
         if not user_answer.isdigit() or int(user_answer) != correct_answer:
             print(
-                f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'."
-            )
+                f"'{user_answer}' is wrong answer ;(. "
+                f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {user_name}!")
             return
 
