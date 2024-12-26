@@ -1,4 +1,5 @@
 def start_game(description, question_func):
+  
     print("Welcome to the Brain Games!")
     name = input("May I have your name? ").strip()
     print(f"Hello, {name}!")
@@ -19,4 +20,4 @@ def start_game(description, question_func):
 
         print("Correct!")
 
-    print(f"Congratulations, {name}!")
+    print(f"Congratulations, {name}!") 

@@ -1,12 +1,14 @@
 import random
 from brain_games.cli import welcome_user
 
-
 def is_even(number):
+    """Checks if a number is even."""
     return number % 2 == 0
 
-
 def main():
+    """
+    Runs the "Even" game.
+    """
     user_name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
@@ -19,11 +21,11 @@ def main():
         correct_answer = "yes" if is_even(number) else "no"
 
         if user_answer != correct_answer:
-             print(
-                 f"'{user_answer}' is wrong answer ;(. "
-                 f"Correct answer was '{correct_answer}'.")
-             print(f"Let's try again, {user_name}!")
-             return
+            print(
+                f"'{user_answer}' is wrong answer ;(. "
+                f"Correct answer was '{correct_answer}'.")
+            print(f"Let's try again, {user_name}!")
+            return
 
         print("Correct!")
 
