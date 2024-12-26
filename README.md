@@ -12,3 +12,6 @@
 
 ### recording game calc
 [![asciicast](https://asciinema.org/a/raMyQxWMsF3ZTEAOgbBHAi96V.svg)](https://asciinema.org/a/raMyQxWMsF3ZTEAOgbBHAi96V)
+
+### recording game progressive
+[![asciicast](https://asciinema.org/a/6Qu4QMysJC45XOzzKa2qVi6rH.svg)](https://asciinema.org/a/6Qu4QMysJC45XOzzKa2qVi6rH)
