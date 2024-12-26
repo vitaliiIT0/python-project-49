@@ -1,6 +1,7 @@
 import random
 from brain_games.cli import welcome_user
 
+
 def is_even(number):
     """Checks if a number is even."""
     return number % 2 == 0
