@@ -6,9 +6,10 @@ from brain_games.game_logic import start_game
 def main():
     user_name = welcome_user()
     start_game(
-        'Answer "yes" if the given number is prime. Otherwise answer "no".',
+        "Answer \"yes\" if the given number is prime. Otherwise answer \"no\".",
         generate_question,
-        user_name)
+        user_name
+    )
 
 
 if __name__ == "__main__":

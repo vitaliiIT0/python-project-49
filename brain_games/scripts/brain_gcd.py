@@ -8,7 +8,8 @@ def main():
     start_game(
         "Find the greatest common divisor of given numbers.",
         generate_question,
-        user_name)
+        user_name
+    )
 
 
 if __name__ == "__main__":
