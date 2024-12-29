@@ -6,7 +6,7 @@ def main():
     start_game(
         "What is the result of the expression?",
         generate_calculation
-        )
+    )
 
 
 if __name__ == "__main__":
