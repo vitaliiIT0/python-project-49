@@ -1,5 +1,6 @@
 from brain_games.cli import welcome_user
 
+
 def start_game(description, question_func):
     user_name = welcome_user()
     print(description)
