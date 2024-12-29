@@ -1,18 +1,21 @@
-def start_game(description, question_func, user_name):
-    print(description)
-    rounds_to_win = 3
-    for _ in range(rounds_to_win):
-        question, correct_answer = question_func()
-        print(f"Question: {question}")
-        user_answer = input("Your answer: ").strip()
+from brain_games.cli import welcome_user
 
-        if user_answer != str(correct_answer):
+def start_game(description, generate_question):
+    user_name = welcome_user()
+    print(description)
+    ROUNDS_TO_WIN = 3
+
+    for _ in range(ROUNDS_TO_WIN):
+        question, correct_answer = generate_question()
+        print(f"Question: {question}")
+        user_answer = input("Your answer: ").strip().lower()
+
+        if user_answer != correct_answer:
             print(
                 f"'{user_answer}' is wrong answer ;(. "
-                f"Correct answer was '{correct_answer}'.")
+                f"Correct answer was '{correct_answer}'."
+            )
             print(f"Let's try again, {user_name}!")
-            return
-
-        print("Correct!")
-
-    print(f"Congratulations, {user_name}!")
+            break
+    else:
+        print(f"Congratulations, {user_name}!")
